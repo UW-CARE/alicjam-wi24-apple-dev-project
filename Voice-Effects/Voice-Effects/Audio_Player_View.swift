@@ -64,7 +64,7 @@ struct Audio_Player_View: View {
                                     Image(systemName: isPlaying ? "stop.circle.fill" : "play.circle.fill")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
-                                        .frame(width: 100, height: 100)
+                                        .frame(width: 90, height: 100)
                                         .foregroundColor(isPlaying ? .red : .green)
                                         .scaleEffect(isPlaying ? 1.2 : 1.0) // Scale effect for animation
                                         .animation(.easeInOut(duration: 0.2)) // Animation duration

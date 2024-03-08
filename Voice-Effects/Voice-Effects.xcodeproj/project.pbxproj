@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5110AD012B9B0A88002AFD97 /* NE 48th St.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5110AD002B9B0A88002AFD97 /* NE 48th St.mp3 */; };
 		517291CD2B980B8B002702D9 /* Voice_EffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517291CC2B980B8B002702D9 /* Voice_EffectsApp.swift */; };
 		517291CF2B980B8B002702D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517291CE2B980B8B002702D9 /* ContentView.swift */; };
 		517291D12B980B8C002702D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517291D02B980B8C002702D9 /* Assets.xcassets */; };
@@ -19,11 +20,11 @@
 		517291EC2B994281002702D9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517291EB2B994281002702D9 /* AudioPlayer.swift */; };
 		517291EE2B995125002702D9 /* keshisong copy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 517291ED2B995125002702D9 /* keshisong copy.mp3 */; };
 		517291F22B996709002702D9 /* AudioStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517291F12B996709002702D9 /* AudioStatus.swift */; };
-		517291F42B99886F002702D9 /* music copy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 517291F32B99886F002702D9 /* music copy.wav */; };
 		517291F82B99A30C002702D9 /* PlayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517291F72B99A30C002702D9 /* PlayerTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5110AD002B9B0A88002AFD97 /* NE 48th St.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NE 48th St.mp3"; sourceTree = SOURCE_ROOT; };
 		517291C92B980B8B002702D9 /* Voice-Effects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice-Effects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		517291CC2B980B8B002702D9 /* Voice_EffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_EffectsApp.swift; sourceTree = "<group>"; };
 		517291CE2B980B8B002702D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		517291EB2B994281002702D9 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		517291ED2B995125002702D9 /* keshisong copy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "keshisong copy.mp3"; sourceTree = SOURCE_ROOT; };
 		517291F12B996709002702D9 /* AudioStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStatus.swift; sourceTree = "<group>"; };
-		517291F32B99886F002702D9 /* music copy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "music copy.wav"; sourceTree = SOURCE_ROOT; };
 		517291F72B99A30C002702D9 /* PlayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 				517291E12B980D1C002702D9 /* Audio_Player.swift */,
 				517291EB2B994281002702D9 /* AudioPlayer.swift */,
 				517291D02B980B8C002702D9 /* Assets.xcassets */,
-				517291F32B99886F002702D9 /* music copy.wav */,
+				5110AD002B9B0A88002AFD97 /* NE 48th St.mp3 */,
 				517291ED2B995125002702D9 /* keshisong copy.mp3 */,
 				517291D22B980B8C002702D9 /* Preview Content */,
 			);
@@ -157,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5110AD012B9B0A88002AFD97 /* NE 48th St.mp3 in Resources */,
 				517291D42B980B8C002702D9 /* Preview Assets.xcassets in Resources */,
 				517291EE2B995125002702D9 /* keshisong copy.mp3 in Resources */,
-				517291F42B99886F002702D9 /* music copy.wav in Resources */,
 				517291D12B980B8C002702D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
